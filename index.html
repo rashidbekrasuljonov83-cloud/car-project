@@ -3,18 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./src/output.css" />
     <title>car</title>
   </head>
   <body>
     <header
-      class="bg-[#0A0A0B] h-screen bg-[url('../imgs/svg/font.svg')] bg-no-repeat bg-right bg-size-[400px]"
+      class="bg-[#0A0A0B] h-screen bg-[url('../imgs/svg/font.svg'),url('../imgs/svg/right.svg')] bg-position-[left_top,right_center] bg-no-repeat bg-size-[400px_auto,400px_auto]"
     >
       <nav class="w-full max-w-254.5 px-6 mx-auto flex justify-between py-4.5">
         <a href="./index.html">
           <img src="./imgs/svg/Elecar.svg" alt="site-logo" />
         </a>
-
+        <img src="" alt="" />
         <div class="hidden gap-12 md:flex">
           <a
             class="font-medium leading-[140%] text-white hover:text-blue-700"
@@ -42,6 +49,41 @@
           <img src="./imgs/svg/menu.svg" alt="menu-bar" />
         </button>
       </nav>
+
+      <section>
+        <div
+          class="w-full max-w-254.5 px-6 mx-auto text-center flex flex-col items-center mt-10 text-white"
+        >
+          <h1 class="font-semibold text-4xl leading-[140%]">
+            Choose The Best Car
+          </h1>
+          <h3 class="text-2xl pt-4">Porsche Mission E</h3>
+          <p class="pt-2 text-[#BABEC4]">
+            <i class="fa-solid fa-bolt text-blue-700"></i>Electric car
+          </p>
+          <img class="text-center pt-10" src="./imgs/svg/porsche.svg" alt="" />
+        </div>
+        <div class="mt-8 flex items-center justify-center gap-10 md:gap-33">
+          <div class="text-white text-center flex flex-col items-center">
+            <img src="./imgs/svg/icon.svg" alt="" />
+            <h2 class="font-semibold text-2xl leading-[140%]">24°</h2>
+            <p class="text-[12px] font-normal text-[#888B91]">TEMPERATURE</p>
+          </div>
+          <div class="text-white text-center flex flex-col items-center">
+            <img src="./imgs/svg/km.svg" alt="" />
+            <h2 class="font-semibold text-2xl leading-[140%]">873</h2>
+            <p class="text-[12px] font-normal text-[#888B91]">MILEAGE</p>
+          </div>
+          <div class="text-white text-center flex flex-col items-center">
+            <img src="./imgs/svg/bolt.svg" alt="" />
+            <h2 class="font-semibold text-2xl leading-[140%]">94%</h2>
+            <p class="text-[12px] font-normal text-[#888B91]">BATTERY</p>
+          </div>
+        </div>
+        <div class="flex items-center justify-center">
+          <img src="./imgs/svg/start.svg" alt="" />
+        </div>
+      </section>
     </header>
   </body>
 </html>
