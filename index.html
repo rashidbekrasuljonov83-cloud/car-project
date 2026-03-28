@@ -13,9 +13,9 @@
     <link rel="stylesheet" href="./src/output.css" />
     <title>car</title>
   </head>
-  <body>
+  <body class="bg-[#0A0A0B] h-screen">
     <header
-      class="bg-[#0A0A0B] h-screen bg-[url('../imgs/svg/font.svg'),url('../imgs/svg/right.svg')] bg-position-[left_top,right_center] bg-no-repeat bg-size-[400px_auto,400px_auto]"
+      class="bg-[url('../imgs/svg/font.svg'),url('../imgs/svg/right.svg')] bg-position-[left_top,right_center] bg-no-repeat bg-size-[400px_auto,400px_auto]"
     >
       <nav class="w-full max-w-254.5 px-6 mx-auto flex justify-between py-4.5">
         <a href="./index.html">
@@ -54,7 +54,7 @@
         <div
           class="w-full max-w-254.5 px-6 mx-auto text-center flex flex-col items-center mt-10 text-white"
         >
-          <h1 class="font-semibold text-4xl leading-[140%]">
+          <h1 class="font-semibold text-4xl leading-[140%] font-exo">
             Choose The Best Car
           </h1>
           <h3 class="text-2xl pt-4">Porsche Mission E</h3>
@@ -80,10 +80,694 @@
             <p class="text-[12px] font-normal text-[#888B91]">BATTERY</p>
           </div>
         </div>
-        <div class="flex items-center justify-center">
+        <div class="flex items-center justify-center pt-14">
           <img src="./imgs/svg/start.svg" alt="" />
         </div>
       </section>
     </header>
+    <main>
+      <section>
+        <div class="w-full max-w-254.5 px-6 mx-auto pt-30 pb-8">
+          <div class="flex flex-col md:flex-row items-center gap-16 text-white">
+            <div class="relative group">
+              <img
+                class="w-full md:w-120 rounded-3xl object-cover"
+                src="./imgs/svg/car-interior.svg"
+                alt="Car Interior"
+              />
+
+              <div
+                class="absolute -bottom-10 right-0 w-48 rounded-[20px] py-6 px-5 bg-[rgba(255,255,255,0.1)] backdrop-blur-lg text-center"
+              >
+                <h2 class="font-semibold font-exo text-2xl">2.500+</h2>
+                <p class="font-normal font-exo text-xs text-[#FFFFFF] mt-1">
+                  Supercharges placed along popular routes
+                </p>
+              </div>
+            </div>
+
+            <div class="flex-1 text-left">
+              <h2 class="text-4xl font-bold font-exo mb-6">
+                Machines With Future Technology
+              </h2>
+              <p class="text-[#BABEC4] text-lg leading-relaxed">
+                See the future with high-performance electric cars produced by
+                renowned brands. They feature futuristic builds and designs with
+                new and innovative platforms that last a long time.
+              </p>
+
+              <button
+                class="mt-8 bg-[#4177DC] hover:bg-[#0011ff] px-8 py-3 text-white font-semibold transition-all duration-300 shadow-md hover:box-shadow: 0px,15px,50px,-4px,rgba(11,112,244,1); hover:-translate-y-2"
+              >
+                Know more
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="w-full max-w-254.5 px-6 mx-auto">
+        <div
+          class="w-full max-w-254.5 px-6 mx-auto flex items-center justify-center pt-30 pb-16 text-center"
+        >
+          <h2
+            class="font-exo text-white text-[20px] font-semibold leading-[140%] w-60"
+          >
+            Choose Your Electric Car Of The Porsche Brand
+          </h2>
+        </div>
+
+        <div
+          class="w-full max-w-254.5 px-6 mx-auto flex gap-14 overflow-y-hidden [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none] pb-10 scroll-smooth snap-y"
+        >
+          <div
+            class="relative w-full max-w-80 p-6 bg-[#111213] shrink-0 rounded-4xl overflow-hidden text-white shadow-2xl bg-[url('../imgs/svg/font.svg')] bg-position-[left_top,]"
+          >
+            <h3 class="font-exo font-semibold text-2xl mb-1">Porsche</h3>
+            <p class="font-exo text-gray-400 text-sm mb-4">Turbo S</p>
+
+            <img
+              class="w-full h-auto mb-6"
+              src="./imgs/svg/brand1.svg"
+              alt="Porsche Turbo S"
+            />
+
+            <div class="grid grid-cols-2 gap-y-5 gap-x-2">
+              <div class="flex items-center gap-2">
+                <img
+                  src="./imgs/svg/sec.svg"
+                  alt=""
+                  class="w-5 h-5 opacity-70"
+                />
+                <span class="font-exo text-[13px]">3.7 Sec</span>
+              </div>
+
+              <div class="flex items-center gap-2">
+                <img
+                  src="./imgs/svg/ri_funds-box-line.svg"
+                  alt=""
+                  class="w-5 h-5 opacity-70"
+                />
+                <span class="font-exo text-[13px]">356 Km/h</span>
+              </div>
+
+              <div class="flex items-center gap-2">
+                <img
+                  src="./imgs/svg/ri_charging-pile-2-line.svg"
+                  alt=""
+                  class="w-5 h-5 opacity-70"
+                />
+                <span class="font-exo text-[13px]">Electric</span>
+              </div>
+            </div>
+
+            <div class="mt-8">
+              <span class="text-2xl font-bold font-exo">$175,900</span>
+            </div>
+
+            <div
+              class="absolute bottom-0 right-0 bg-[#407BFF] p-5 rounded-tl-[30px] cursor-pointer hover:bg-[#3366D6] transition-all"
+            >
+              <img
+                src="./imgs/svg/ri_shopping-bag-2-line.svg"
+                alt="Savat"
+                class="w-6 h-6 object-contain"
+              />
+            </div>
+          </div>
+          <div
+            class="relative w-full max-w-75 p-6 bg-[#111213] shrink-0 rounded-4xl overflow-hidden text-white shadow-2xl bg-[url('../imgs/svg/font.svg')] bg-position-[left_top,]"
+          >
+            <h3 class="font-exo font-semibold text-2xl mb-1">Porsche</h3>
+            <p class="font-exo text-gray-400 text-sm mb-4">Taycan</p>
+
+            <img
+              class="w-full h-auto mb-6"
+              src="./imgs/svg/taycan.svg"
+              alt="Porsche Turbo S"
+            />
+
+            <div class="grid grid-cols-2 gap-y-5 gap-x-2">
+              <div class="flex items-center gap-2">
+                <img
+                  src="./imgs/svg/sec.svg"
+                  alt=""
+                  class="w-5 h-5 opacity-70"
+                />
+                <span class="font-exo text-[13px]">3.7 Sec</span>
+              </div>
+
+              <div class="flex items-center gap-2">
+                <img
+                  src="./imgs/svg/ri_funds-box-line.svg"
+                  alt=""
+                  class="w-5 h-5 opacity-70"
+                />
+                <span class="font-exo text-[13px]">356 Km/h</span>
+              </div>
+
+              <div class="flex items-center gap-2">
+                <img
+                  src="./imgs/svg/ri_charging-pile-2-line.svg"
+                  alt=""
+                  class="w-5 h-5 opacity-70"
+                />
+                <span class="font-exo text-[13px]">Electric</span>
+              </div>
+            </div>
+
+            <div class="mt-8">
+              <span class="text-2xl font-bold font-exo">$114,900</span>
+            </div>
+
+            <div
+              class="absolute bottom-0 right-0 bg-[#407BFF] p-5 rounded-tl-[30px] cursor-pointer hover:bg-[#3366D6] transition-all"
+            >
+              <img
+                src="./imgs/svg/ri_shopping-bag-2-line.svg"
+                alt="Savat"
+                class="w-6 h-6 object-contain"
+              />
+            </div>
+          </div>
+          <div
+            class="relative w-full max-w-75 p-6 bg-[#111213] shrink-0 rounded-4xl overflow-hidden text-white shadow-2xl bg-[url('../imgs/svg/font.svg')] bg-position-[left_top,]"
+          >
+            <h3 class="font-exo font-semibold text-2xl mb-1">Porsche</h3>
+            <p class="font-exo text-gray-400 text-sm mb-4">Turbo S Cross</p>
+
+            <img
+              class="w-full h-auto mb-6"
+              src="./imgs/svg/cross.svg"
+              alt="Porsche Turbo S"
+            />
+
+            <div class="grid grid-cols-2 gap-y-5 gap-x-2">
+              <div class="flex items-center gap-2">
+                <img
+                  src="./imgs/svg/sec.svg"
+                  alt=""
+                  class="w-5 h-5 opacity-70"
+                />
+                <span class="font-exo text-[13px]">3.7 Sec</span>
+              </div>
+
+              <div class="flex items-center gap-2">
+                <img
+                  src="./imgs/svg/ri_funds-box-line.svg"
+                  alt=""
+                  class="w-5 h-5 opacity-70"
+                />
+                <span class="font-exo text-[13px]">356 Km/h</span>
+              </div>
+
+              <div class="flex items-center gap-2">
+                <img
+                  src="./imgs/svg/ri_charging-pile-2-line.svg"
+                  alt=""
+                  class="w-5 h-5 opacity-70"
+                />
+                <span class="font-exo text-[13px]">Electric</span>
+              </div>
+            </div>
+
+            <div class="mt-8">
+              <span class="text-2xl font-bold font-exo">$150,900</span>
+            </div>
+
+            <div
+              class="absolute bottom-0 right-0 bg-[#407BFF] p-5 rounded-tl-[30px] cursor-pointer hover:bg-[#3366D6] transition-all"
+            >
+              <img
+                src="./imgs/svg/ri_shopping-bag-2-line.svg"
+                alt="Savat"
+                class="w-6 h-6 object-contain"
+              />
+            </div>
+          </div>
+          <div
+            class="relative w-full max-w-75 p-6 bg-[#111213] shrink-0 rounded-4xl overflow-hidden text-white shadow-2xl bg-[url('../imgs/svg/font.svg')] bg-position-[left_top,]"
+          >
+            <h3 class="font-exo font-semibold text-2xl mb-1">Porsche</h3>
+            <p class="font-exo text-gray-400 text-sm mb-4">Boxster 718</p>
+
+            <img
+              class="w-full h-auto mb-6"
+              src="./imgs/svg/Boxster-718.svg"
+              alt="Porsche Turbo S"
+            />
+
+            <div class="grid grid-cols-2 gap-y-5 gap-x-2">
+              <div class="flex items-center gap-2">
+                <img
+                  src="./imgs/svg/sec.svg"
+                  alt=""
+                  class="w-5 h-5 opacity-70"
+                />
+                <span class="font-exo text-[13px]">3.7 Sec</span>
+              </div>
+
+              <div class="flex items-center gap-2">
+                <img
+                  src="./imgs/svg/ri_funds-box-line.svg"
+                  alt=""
+                  class="w-5 h-5 opacity-70"
+                />
+                <span class="font-exo text-[13px]">356 Km/h</span>
+              </div>
+
+              <div class="flex items-center gap-2">
+                <img
+                  src="./imgs/svg/ri_charging-pile-2-line.svg"
+                  alt=""
+                  class="w-5 h-5 opacity-70"
+                />
+                <span class="font-exo text-[13px]">Electric</span>
+              </div>
+            </div>
+
+            <div class="mt-8">
+              <span class="text-2xl font-bold font-exo">$125,900</span>
+            </div>
+
+            <div
+              class="absolute bottom-0 right-0 bg-[#407BFF] p-5 rounded-tl-[30px] cursor-pointer hover:bg-[#3366D6] transition-all"
+            >
+              <img
+                src="./imgs/svg/ri_shopping-bag-2-line.svg"
+                alt="Savat"
+                class="w-6 h-6 object-contain"
+              />
+            </div>
+          </div>
+          <div
+            class="relative w-full max-w-75 p-6 bg-[#111213] shrink-0 justify-between rounded-4xl overflow-hidden text-white shadow-2xl bg-[url('../imgs/svg/font.svg')] bg-position-[left_top,]"
+          >
+            <h3 class="font-exo font-semibold text-2xl mb-1">Porsche</h3>
+            <p class="font-exo text-gray-400 text-sm mb-4">Cayman</p>
+
+            <img
+              class="w-full h-auto mb-6"
+              src="./imgs/svg/caynam.svg"
+              alt="Porsche Turbo S"
+            />
+
+            <div class="grid grid-cols-2 gap-y-5 gap-x-2">
+              <div class="flex items-center gap-2">
+                <img
+                  src="./imgs/svg/sec.svg"
+                  alt=""
+                  class="w-5 h-5 opacity-70"
+                />
+                <span class="font-exo text-[13px]">3.7 Sec</span>
+              </div>
+
+              <div class="flex items-center gap-2">
+                <img
+                  src="./imgs/svg/ri_funds-box-line.svg"
+                  alt=""
+                  class="w-5 h-5 opacity-70"
+                />
+                <span class="font-exo text-[13px]">356 Km/h</span>
+              </div>
+
+              <div class="flex items-center gap-2">
+                <img
+                  src="./imgs/svg/ri_charging-pile-2-line.svg"
+                  alt=""
+                  class="w-5 h-5 opacity-70"
+                />
+                <span class="font-exo text-[13px]">Electric</span>
+              </div>
+            </div>
+
+            <div class="mt-8">
+              <span class="text-2xl font-bold font-exo">$128,900</span>
+            </div>
+
+            <div
+              class="absolute bottom-0 right-0 bg-[#407BFF] p-5 rounded-tl-[30px] cursor-pointer hover:bg-[#3366D6] transition-all"
+            >
+              <img
+                src="./imgs/svg/ri_shopping-bag-2-line.svg"
+                alt="Savat"
+                class="w-6 h-6 object-contain"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div>
+          <div
+            class="w-full max-w-254.5 px-6 mx-auto flex items-center justify-center pt-30 pb-16 text-center"
+          >
+            <h2
+              class="font-exo text-white text-[20px] font-semibold leading-[140%] w-60"
+            >
+              Featured Luxury Cars
+            </h2>
+          </div>
+          <div
+            class="w-full max-w-254.5 px-6 mx-auto flex items-center justify-center pt-10 gap-4 pb-16 text-center"
+          >
+            <div
+              class="w-12 h-12 border-2 bg-[#111213] hover:bg-[#4177DC] rounded-xl transition-all flex items-center justify-center"
+            >
+              <h4
+                class="font-exo text-white text-[15px] font-normal leading-[140%]"
+              >
+                ALL
+              </h4>
+            </div>
+            <div
+              class="w-12 h-12 border-2 bg-[#111213] hover:bg-[#4177DC] rounded-xl transition-all flex items-center justify-center"
+            >
+              <img src="./imgs/svg/tesla.svg" alt="" />
+            </div>
+            <div
+              class="w-12 h-12 border-2 bg-[#111213] hover:bg-[#4177DC] rounded-xl transition-all flex items-center justify-center"
+            >
+              <img src="./imgs/svg/audi.svg" alt="audi" />
+            </div>
+            <div
+              class="w-12 h-12 border-2 bg-[#111213] hover:bg-[#4177DC] rounded-xl transition-all flex items-center justify-center"
+            >
+              <img src="./imgs/svg/porch.svg" alt="" />
+            </div>
+          </div>
+          <div
+            class="w-full max-w-254.5 px-6 mx-auto text-wrap grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-3 gap-10 justify-items-center"
+          >
+            <div
+              class="group relative w-full max-w-57 p-6 bg-[#111213] shrink-0 rounded-4xl overflow-hidden text-white shadow-2xl bg-[url('../imgs/svg/font.svg')] bg-top-left hover:scale-105 transition-transform duration-300"
+            >
+              <h3 class="font-exo font-semibold text-2xl mb-1">Tesla</h3>
+              <p class="font-exo text-gray-400 text-sm mb-4">Model X</p>
+
+              <img
+                class="w-full h-auto mb-6 transition-transform duration-300 group-hover:scale-110"
+                src="./imgs/svg/model-x.svg"
+                alt="Tesla Model X"
+              />
+
+              <div class="mt-8">
+                <span class="text-2xl font-bold font-exo">$98,900</span>
+              </div>
+
+              <div
+                class="absolute bottom-0 right-0 bg-[#407BFF] p-5 rounded-tl-[30px] cursor-pointer hover:bg-[#3366D6] transition-all"
+              >
+                <img
+                  src="./imgs/svg/ri_shopping-bag-2-line.svg"
+                  alt="Savat"
+                  class="w-6 h-6 object-contain"
+                />
+              </div>
+            </div>
+            <div
+              class="group relative w-full max-w-57 p-6 bg-[#111213] shrink-0 rounded-4xl overflow-hidden text-white shadow-2xl bg-[url('../imgs/svg/font.svg')] bg-top-left hover:scale-105 transition-transform"
+            >
+              <h3 class="font-exo font-semibold text-2xl mb-1">Tesla</h3>
+              <p class="font-exo text-gray-400 text-sm mb-4">Model 3</p>
+
+              <img
+                class="w-full h-auto mb-6 transition-transform duration-300 group-hover:scale-110"
+                src="./imgs/svg/model-3.svg"
+                alt="Porsche Turbo S"
+              />
+
+              <div class="mt-8">
+                <span class="text-2xl font-bold font-exo">$45,900</span>
+              </div>
+
+              <div
+                class="absolute bottom-0 right-0 bg-[#407BFF] p-5 rounded-tl-[30px] cursor-pointer hover:bg-[#3366D6] transition-all"
+              >
+                <img
+                  src="./imgs/svg/ri_shopping-bag-2-line.svg"
+                  alt="Savat"
+                  class="w-6 h-6 object-contain"
+                />
+              </div>
+            </div>
+            <div
+              class="group relative w-full max-w-57 p-6 bg-[#111213] shrink-0 rounded-4xl overflow-hidden text-white shadow-2xl bg-[url('../imgs/svg/font.svg')] bg-top-left hover:scale-105 transition-transform"
+            >
+              <h3 class="font-exo font-semibold text-2xl mb-1">Audi</h3>
+              <p class="font-exo text-gray-400 text-sm mb-4">E-tron</p>
+
+              <img
+                class="w-full h-auto mb-6 transition-transform duration-300 group-hover:scale-110"
+                src="./imgs/svg/E-tron.svg"
+                alt="Porsche Turbo S"
+              />
+
+              <div class="mt-8">
+                <span class="text-2xl font-bold font-exo">$175,900</span>
+              </div>
+
+              <div
+                class="absolute bottom-0 right-0 bg-[#407BFF] p-5 rounded-tl-[30px] cursor-pointer hover:bg-[#3366D6] transition-all"
+              >
+                <img
+                  src="./imgs/svg/ri_shopping-bag-2-line.svg"
+                  alt="Savat"
+                  class="w-6 h-6 object-contain"
+                />
+              </div>
+            </div>
+            <div
+              class="group relative w-full max-w-57 p-6 bg-[#111213] shrink-0 rounded-4xl overflow-hidden text-white shadow-2xl bg-[url('../imgs/svg/font.svg')] bg-top-left hover:scale-105 transition-transform"
+            >
+              <h3 class="font-exo font-semibold text-2xl mb-1">Porsche</h3>
+              <p class="font-exo text-gray-400 text-sm mb-4">Boxster 987</p>
+
+              <img
+                class="w-full h-auto mb-6 transition-transform duration-300 group-hover:scale-110"
+                src="./imgs/svg/Boxster-987.svg"
+                alt="Porsche Turbo S"
+              />
+
+              <div class="mt-8">
+                <span class="text-2xl font-bold font-exo">$126,900</span>
+              </div>
+
+              <div
+                class="absolute bottom-0 right-0 bg-[#407BFF] p-5 rounded-tl-[30px] cursor-pointer hover:bg-[#3366D6] transition-all"
+              >
+                <img
+                  src="./imgs/svg/ri_shopping-bag-2-line.svg"
+                  alt="Savat"
+                  class="w-6 h-6 object-contain"
+                />
+              </div>
+            </div>
+            <div
+              class="group relative w-full max-w-57 p-6 bg-[#111213] shrink-0 rounded-4xl overflow-hidden text-white shadow-2xl bg-[url('../imgs/svg/font.svg')] bg-top-left hover:scale-105 transition-transform"
+            >
+              <h3 class="font-exo font-semibold text-2xl mb-1">Porsche</h3>
+              <p class="font-exo text-gray-400 text-sm mb-4">Panamera</p>
+
+              <img
+                class="w-full h-auto mb-6 transition-transform duration-300 group-hover:scale-110"
+                src="./imgs/svg/panamera.svg"
+                alt="Porsche Turbo S"
+              />
+
+              <div class="mt-8">
+                <span class="text-2xl font-bold font-exo">$126,900</span>
+              </div>
+
+              <div
+                class="absolute bottom-0 right-0 bg-[#407BFF] p-5 rounded-tl-[30px] cursor-pointer hover:bg-[#3366D6] transition-all"
+              >
+                <img
+                  src="./imgs/svg/ri_shopping-bag-2-line.svg"
+                  alt="Savat"
+                  class="w-6 h-6 object-contain"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="bg-[#0b0c0d] min-h-125 py-20 px-6 pt-18 relative overflow-hidden"
+      >
+        <div
+          class="w-full max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center"
+        >
+          <div
+            class="text-white space-y-6 flex flex-col items-center justify-center"
+          >
+            <h2 class="font-exo font-semibold text-4xl leading-[130%] max-w-md">
+              Do You Want To Receive Special Offers?
+            </h2>
+            <p class="font-exo font-normal text-gray-300 text-lg max-w-sm">
+              Be the first to receive all the information about our products and
+              new cars by email by subscribing to our mailing list.
+            </p>
+            <button
+              class="bg-[#407BFF] text-white px-10 py-4 rounded-xl text-lg font-exo font-semibold hover:bg-[#3366D6] transition-all"
+            >
+              Subscribe Now
+            </button>
+          </div>
+
+          <div class="relative w-full flex items-center justify-center pt-20">
+            <div
+              class="absolute -bottom-10 left-1/2 -translate-x-1/2 w-[80%] h-37.5 bg-white opacity-5 blur-[100px] rounded-full pointer-events-none z-0"
+            ></div>
+
+            <div
+              class="absolute bottom-[2%] left-1/2 -translate-x-1/2 w-[90%] h-3.75 bg-black blur-sm opacity-70 rounded-full z-0 pointer-events-none"
+            ></div>
+
+            <div class="relative group z-10 w-full flex justify-center">
+              <img
+                src="./imgs/svg/porch911.svg"
+                alt="Porsche Turbo S"
+                class="w-full max-w-md h-auto transition-transform duration-300 group-hover:scale-105"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div
+          class="w-full max-w-254.5 px-6 pb-16.25 mx-auto grid grid-cols-3 grid-rows-2 items-center justify-center gap-15 md:flex"
+        >
+          <div>
+            <img src="./imgs/svg/porch.svg" alt="porsche" class="w-12.5" />
+          </div>
+          <div>
+            <img src="./imgs/svg/audi.svg" alt="porsche" class="w-12.5" />
+          </div>
+          <div>
+            <img src="./imgs/svg/tesla.svg" alt="porsche" class="w-12.5" />
+          </div>
+          <div>
+            <img src="./imgs/svg/bmw-logo.svg" alt="porsche" class="w-12.5" />
+          </div>
+          <div>
+            <img
+              src="./imgs/svg/lambarghini.svg"
+              alt="porsche"
+              class="w-12.5"
+            />
+          </div>
+          <div>
+            <img src="./imgs/svg/logo6.svg" alt="porsche" class="w-12.5" />
+          </div>
+        </div>
+      </section>
+      <footer class="bg-[#0b0c0d] text-white pt-20 pb-10 px-6 overflow-hidden">
+        <div class="max-w-7xl mx-auto">
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16"
+          >
+            <div class="space-y-6">
+              <a href="#" class="flex items-center gap-2 group">
+                <img src="./imgs/svg/Elecar.svg" alt="Elecar" class="" />
+              </a>
+              <p
+                class="font-exo text-gray-400 text-sm leading-relaxed max-w-50"
+              >
+                We offer the best electric cars of the most recognized brands in
+                the world.
+              </p>
+            </div>
+
+            <div>
+              <h3 class="font-exo font-bold text-lg mb-6 text-white">
+                Company
+              </h3>
+              <ul class="space-y-4 font-exo text-gray-400 text-sm">
+                <li>
+                  <a href="#" class="hover:text-[#407BFF] transition-colors"
+                    >About</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="hover:text-[#407BFF] transition-colors"
+                    >Cars</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="hover:text-[#407BFF] transition-colors"
+                    >History</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="hover:text-[#407BFF] transition-colors"
+                    >Shop</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="font-exo font-bold text-lg mb-6 text-white">
+                Information
+              </h3>
+              <ul class="space-y-4 font-exo text-gray-400 text-sm">
+                <li>
+                  <a href="#" class="hover:text-[#407BFF] transition-colors"
+                    >Request a quote</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="hover:text-[#407BFF] transition-colors"
+                    >Find a dealer</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="hover:text-[#407BFF] transition-colors"
+                    >Contact us</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="hover:text-[#407BFF] transition-colors"
+                    >Services</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="font-exo font-bold text-lg mb-6 text-white">
+                Follow us
+              </h3>
+              <div class="flex gap-6">
+                <a
+                  href="#"
+                  class="text-gray-400 hover:text-[#407BFF] transition-all transform hover:-translate-y-1"
+                >
+                  <img src="./imgs/svg/facebook.svg" alt="" />
+                </a>
+                <a
+                  href="#"
+                  class="text-gray-400 hover:text-[#407BFF] transition-all transform hover:-translate-y-1"
+                >
+                  <img src="./imgs/svg/instagram.svg" alt="" />
+                </a>
+                <a
+                  href="#"
+                  class="text-gray-400 hover:text-[#407BFF] transition-all transform hover:-translate-y-1"
+                >
+                  <img src="./imgs/svg/twitter.svg" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="border-t border-gray-800 pt-8 text-center">
+            <p class="font-exo text-gray-500 text-xs">
+              © Bedimcode. All rights reserved
+            </p>
+          </div>
+        </div>
+      </footer>
+    </main>
   </body>
 </html>
