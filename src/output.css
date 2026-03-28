@@ -729,6 +729,12 @@
   .pt-14 {
     padding-top: calc(var(--spacing) * 14);
   }
+  .pt-16 {
+    padding-top: calc(var(--spacing) * 16);
+  }
+  .pt-16\.25 {
+    padding-top: calc(var(--spacing) * 16.25);
+  }
   .pt-18 {
     padding-top: calc(var(--spacing) * 18);
   }
